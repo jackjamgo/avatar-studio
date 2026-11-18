@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Keys and local state never belong in the repo
+.env
+*.env
+keys.env
+.avatar-studio/
+
+# Render output and working files
+_work/
+_ab/
+clips/
+final.mp4
+*.mp4
+*.wav
+*.mp3
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
